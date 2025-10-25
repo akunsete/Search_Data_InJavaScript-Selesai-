@@ -1,0 +1,4 @@
+1.Membuat searchnya:
+    *Membuat data dalam array
+    *Membuat Input
+    *Munculkan hasil search(Ouput)

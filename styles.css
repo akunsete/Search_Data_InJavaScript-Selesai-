@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.ContainerSearch {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#ListItems {
+    display: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Search {
+    width: 180px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+#Search:focus {
+    border: 3px solid black;
+}
+
+li {
+    width: 180px;
+    padding: 6px;
+    background-color: #ddd;
+    text-align: left;
+    list-style: none;
+    border: 1px solid #000000;
+}
