@@ -18,6 +18,6 @@ search.addEventListener('input', function(){
         li.textContent = dataFind;
         listItems.appendChild(li);
     } else {
-        listItems.innerHTML = "";
+        listItems.innerHTML = "a";
     };
 });
